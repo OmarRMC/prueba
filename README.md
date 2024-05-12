@@ -11,4 +11,10 @@
 </div>
 
 ```
+
+```javascript
+let a = 12
+console.log("Hola mundo "+a)
+
+```
 ## Este es el subtitulo
