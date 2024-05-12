@@ -5,25 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        div{
+        div:nth-child(1), div:nth-child(2){
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(20deg , rgb(9, 20, 179), rgb(5, 80, 80)) ;
             border-radius: 5px;
-            display: flex;
+            display: inline-flex;
             justify-content: center;
             align-items: center;
             color: white;
-            height: 500px;
-            width: 500px;
-
+            height: 200px;
+            width: 200px;            
+        }
+        div:nth-child(3){
+            background: cyan;
+        }
+        .padre{
+            background: red;
+            
         }
     </style>
     <title>Hola Mundo</title>
 </head>
 <body>
-
+    
     <div> 
         Hola Mund en  html 
+    </div>
+    
+    <div> 
+        Hola Mund en  html 
+    </div>
+    <div>
+
+        <span style="background: red; color: white ">
+            Nose que 
+        </span>
+        <span style="background: red; color: white ">
+            Nose que 
+        </span>
+        <p style="background: blue; color:white;">
+            Esto es parafo 
+        </p>
+
+
+    </div>
+
+    <div class="padre">
+        <div>HIJO UNO </div>
+        <div>HIJO DOS</div>
     </div>
 </body>
 </html>
